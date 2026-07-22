@@ -1,0 +1,12 @@
+# MATLAB/Simulink
+*.autosave
+slprj/
+*.slxc
+*.slxp
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Extracted temp files
+_extracted/
