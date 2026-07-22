@@ -86,23 +86,29 @@ PCC电压/电流 → 坐标变换(abc→dq) → VSG控制(P-f/Q-V) → 双闭环
 
 ## 🖼️ 模型截图
 
-## 系统拓扑结构
+## 系统整体拓扑结构
 ![Topology](images/topology.png)
 
-## 仿真顶层模型
-![Model Overview](images/model_overview.png)
+## VSG控制整体架构框图
+![VSG Architecture](images/vsg_architecture.png)
 
-## VSG 控制子系统
-![VSG Control](images/vsg_control.png)
+## P-f控制回路信号流
+![P-f Control](images/pf_control.png)
 
-## 电网频率阶跃响应
-![Frequency Response](images/waveforms/frequency_step.png)
+## 电压电流双闭环子系统
+![Dual Loop](images/dual_loop.png)
 
-## 功率响应波形
-![Power Response](images/waveforms/power_response.png)
+## 频率阶跃响应（工况一）
+![Frequency Step](images/waveforms/freq_step.png)
 
-## 直流母线电压
+## 有功/无功功率响应（工况一）
+![Power Response](images/waveforms/pq_step.png)
+
+## 直流母线电压（工况一）
 ![DC Bus](images/waveforms/dc_bus.png)
+
+## 双电池功率协调（工况一）
+![Battery Power](images/waveforms/battery_power.png)
 
 ---
 
