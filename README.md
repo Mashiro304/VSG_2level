@@ -97,20 +97,37 @@ t=1.0s 突增 50kW 负荷，t=2.0s 断开电网进入孤岛运行，验证并网
 ## P-f控制回路信号流
 ![P-f Control](images/pf_control.png)
 
+## Q-V控制回路信号流
+![Q-V Control](images/qv_control.png)
+
 ## 电压电流双闭环子系统
 ![Dual Loop](images/dual_loop.png)
 
-## 频率阶跃响应（工况一）
+---
+
+### 工况一：电网频率阶跃
+
+## 频率响应曲线
 ![Frequency Step](images/waveforms/freq_step.png)
 
-## 有功/无功功率响应（工况一）
+## 有功/无功功率响应
 ![Power Response](images/waveforms/pq_step.png)
 
-## 直流母线电压（工况一）
+## 直流母线电压
 ![DC Bus](images/waveforms/dc_bus.png)
 
-## 双电池功率协调（工况一）
+## 双电池功率协调
 ![Battery Power](images/waveforms/battery_power.png)
+
+---
+
+### 工况二：负荷突变 + 孤岛切换
+
+## 频率响应曲线
+![Island Frequency](images/waveforms/island_freq.png)
+
+## 有功/无功功率响应
+![Island PQ](images/waveforms/island_pq.png)
 
 ---
 
